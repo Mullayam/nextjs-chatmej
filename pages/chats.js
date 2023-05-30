@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext } from "react";
 
 import { Context } from "../context";
-import Config from "@/config/env.json";
+import Config from "@/config";
 import dynamic from "next/dynamic";
 import { useRouter } from "next/router";
 
