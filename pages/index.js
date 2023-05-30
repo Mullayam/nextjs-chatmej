@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 
 import { Context } from "../context";
-import Config from "@/config/env.json";
+import Config from "@/config";
 import { useRouter } from "next/router";
 
 import axios from "axios";
